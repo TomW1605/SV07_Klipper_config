@@ -10,4 +10,4 @@ These changes include:
 - Changing the hot end LED to be a toggle not a brightness slider. The stock config had the PWM frequency set to a 5 second cycle so you couldn't control brightness anyway.
 - Added a macro for toggling the hot end LED.
 - Added an override for M106 and M107 to also use the large fan on the back.
-- Added a toggle that enables and disables the large fan (this requires the Virtual Pins klipper addon). When switched off it will turn the fan off and when switched on it will set the fan to the same speed as the normal extruder fan.
+- Added a toggle that enables and disables the large fan (this requires the [Virtual Pins klipper module](https://github.com/pedrolamas/klipper-virtual-pins)). When switched off it will turn the fan off and when switched on it will set the fan to the same speed as the normal extruder fan.
